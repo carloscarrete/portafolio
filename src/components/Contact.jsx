@@ -34,6 +34,7 @@ export const Contact = () => {
         </div>
         <form
           name="contact"
+          method='POST'
           className='lg:w-3/4 md:w-1/2 flex flex-col md:ml-auto w-full mt-8 md:mt-0'
           onSubmit={handleSubmit}
         >
