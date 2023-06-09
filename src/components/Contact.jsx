@@ -41,10 +41,6 @@ export const Contact = () => {
           <input type="hidden" name="form-name" value="contact" />
           <h2 className='text-white sm:text-4xl text-3xl font-medium mb-5'>Formulario de contacto</h2>
           <h2 className='text-2xl font-bold mb-4'>Puedes enviar tu consulta o mensaje mediante el siguiente formulario</h2>
-          {/* <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p> */}
           <div className='mb-4 text-left'>
             <label htmlFor="name">Nombre</label>
             <input 
