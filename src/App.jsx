@@ -5,6 +5,7 @@ import { About } from './components/About'
 import { Navbar } from './components/Navbar'
 import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
+import { Contact } from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       <About />
       <Projects />
       <Skills />
-    </div> 
+      <Contact />
+    </div>
   )
 }
 
