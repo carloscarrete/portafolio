@@ -19,7 +19,7 @@ export const Contact = () => {
 
   return (
     <section id='contact' className='relative'>
-      <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap sm:mx-auto lg:w-4/5'>
+      <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap sm:mx-auto md:w-4/5 xl:w-3/5'>
         <div className='w-1/4 text-left'>
           <h2 className='text-white text-2xl mb-5'>Contacto</h2>
           <h3 className='font-bold text-white text-xl'>Corro electrónico:</h3>
@@ -35,8 +35,7 @@ export const Contact = () => {
         <form
           name="contact"
           method='POST'
-          className='lg:w-3/4 md:w-1/2 flex flex-col md:ml-auto w-full mt-8 md:mt-0'
-          onSubmit={handleSubmit}
+          className='lg:w-3/4  flex flex-col md:w-4/6 md:ml-28 w-full mt-8 md:mt-0'
         >
           <input type="hidden" name="form-name" value="contact" />
           <h2 className='text-white sm:text-4xl text-3xl font-medium mb-5'>Formulario de contacto</h2>
