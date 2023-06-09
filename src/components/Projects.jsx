@@ -16,7 +16,7 @@ export const Projects = () => {
                         Aplicaciones
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    A continuación, me complace compartir una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados:
+                    A continuación, comparto una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados:
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
