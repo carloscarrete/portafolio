@@ -29,7 +29,7 @@ export const About = () => {
                     <img
                         className="object-cover object-center rounded"
                         alt="hero"
-                        src="../../public/logo.svg"
+                        src="../../logo.svg"
                     />
                 </div>
             </div>

@@ -26,11 +26,11 @@ export const Contact = () => {
 
           <div className='flex items-center justify-around sm:flex-col'>
             <div className='flex w-full items-center flex-col text-center mb-10'>
-              <a href="https://gitlab.com/carloscarrete.sc" target='_blank'><img src="../../public/repositories/gitlab.svg" alt="Repositorio de Gitlab" className='w-24 sm:w-36 md:w-40' /></a>
+              <a href="https://gitlab.com/carloscarrete.sc" target='_blank'><img src="../../repositories/gitlab.svg" alt="Repositorio de Gitlab" className='w-24 sm:w-36 md:w-40' /></a>
 
             </div>
             <div className='flex w-full items-center flex-col text-center mb-10'>
-              <a href="https://github.com/carloscarrete" target='_blank'><img src="../../public/repositories/github.svg" alt="Repositorio de Github" className='w-24 sm:w-36 md:w-40' /></a>
+              <a href="https://github.com/carloscarrete" target='_blank'><img src="../../repositories/github.svg" alt="Repositorio de Github" className='w-24 sm:w-36 md:w-40' /></a>
             </div>
           </div>
 
