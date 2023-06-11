@@ -11,7 +11,7 @@ export const Contact = () => {
   })
 
   return (
-    <section id='contact' className='relative'>
+    <section  data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="250" id='contact' className='relative'>
       <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap-reverse sm:mx-auto md:w-4/5 xl:w-4/5 sm:w-3/4 sm:px-0  justify-center'>
         <div className='flex flex-col w-full'>
 

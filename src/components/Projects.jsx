@@ -4,7 +4,7 @@ import { projects } from '../data/projects'
 
 export const Projects = () => {
     return (
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+        <section  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250" id="projects" className="text-gray-400 bg-gray-900 body-font">
             <div className='container px-5 py-5 mx-auto text-center '>
                 <div className="flex flex-col w-full mb-20">
                     <div className='mx-auto mb-14 w-10 inline-block'>
@@ -13,10 +13,10 @@ export const Projects = () => {
                         </svg>
                     </div>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Aplicaciones
+                        Proyectos
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    A continuación, comparto una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados:
+                    A continuación, comparto una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados si dejas el mouse sobre alguna imagén del proyecto:
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">

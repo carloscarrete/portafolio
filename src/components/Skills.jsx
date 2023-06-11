@@ -1,7 +1,7 @@
 import { skills } from "../data/skills"
 export const Skills = () => {
   return (
-    <section id="skills">
+    <section  data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offset="250" id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-10">
           <div className="w-10 inline-block mb-4">

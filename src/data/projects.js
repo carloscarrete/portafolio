@@ -26,7 +26,7 @@ export const projects = [
       description: 'Multi-marcas fue una Aplicación Web creada para un negocio con el mismo nombre, esta Aplicación fue creeada con el proposito de hacer crecer el negocio y llegar a mas mercado en toda la República Mexicana. Con esta Web, los clientes podián buscar entre una gran cantidad de catálogos de diferentes marcas. Además de poder ver los catálogos en formato PDF y realizar compra de esos artículos en línea.',
       image: `${multimarcas}`,
       alt: 'Multimarcas, Sitio web donde puedes encontrar muchos catálogos de ropa y calzado, además de poder comprar.',
-      link: 'https://www.multi-marcas.com'
+      link: 'https://gitlab.com/carloscarrete.sc/multi-marcas-shop'
     },
     {
       title: 'Git-Tecnologias',
@@ -34,6 +34,6 @@ export const projects = [
       description: 'El desarrollo de esta Aplicación Web se realizo en la empresa Git Tecnologías y el objetivo de esta Aplicación es que los empleados del negocio pudierán contar con un panel de Adminitración para manejar el equipo a reparar de sus clientes de una manera más sencilla. Del mismo modo la Web es visible para los clientes con la finalidad de que puedan ver distintos productos y/o el status de su equipo, en este caso si ya esta reparado o no.',
       image: `${git}`,
       alt: 'Git-Tecnologias, Sitio web para ayudar administrar un negocio mediante status y tickets.',
-      link: 'https://www.gitecnologias.com'
+      link: 'https://github.com/gitdurango/web'
     }
   ];
