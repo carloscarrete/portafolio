@@ -28,7 +28,7 @@ export const Projects = () => {
                                 key={project.image}
                                 target='_blank'
                                 className="sm:w-1/2 w-100 p-4">
-                                <div className="flex relative h-[290px]">
+                                <div className="flex relative lg:h-[350px]">
                                     <img
                                         alt={project.alt}
                                         className="absolute inset-0 w-full h-full object-cover object-center"
