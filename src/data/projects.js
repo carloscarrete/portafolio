@@ -2,6 +2,8 @@ import git from '../../public/captures/git.png'
 import journal from '../../public/captures/journal.png'
 import multimarcas from '../../public/captures/multimarcas.png'
 import socialtreek from '../../public/captures/socialtreek.png'
+import crypto from '../../public/captures/crypto.gif'
+import telebot from '../../public/captures/telebot.gif'
 
 export const projects = [
     {
@@ -35,5 +37,21 @@ export const projects = [
       image: `${git}`,
       alt: 'Git-Tecnologias, Sitio web para ayudar administrar un negocio mediante status y tickets.',
       link: 'https://github.com/gitdurango/web'
+    },
+    {
+      title: 'Crypt - Lookup',
+      subtitle: 'Frontend React Developer',
+      description: 'Crypt-Lookup es una aplicación web construida con React que permite a los usuarios buscar y explorar información sobre varias criptomonedas. Utiliza la API de CoinGecko para obtener datos en tiempo real y proporciona una interfaz amigable para descubrir y seguir activos digitales.',
+      image: `${crypto}`,
+      alt: 'Crypto-Lookup',
+      link: 'https://crypto-lookup-cb.netlify.app/'
+    },
+    {
+      title: 'ATT - KRTBOT',
+      subtitle: 'Python - Telegram',
+      description: 'ATT-KRT es un bot de Telegram que utiliza tecnología de procesamiento de lenguaje natural para generar resúmenes de archivos de audio en español.',
+      image: `${telebot}`,
+      alt: 'ATT-KRTBOT',
+      link: 'https://t.me/attkrtbot'
     }
   ];
