@@ -4,6 +4,7 @@ import multimarcas from '../../public/captures/multimarcas.png'
 import socialtreek from '../../public/captures/socialtreek.png'
 import crypto from '../../public/captures/crypto.gif'
 import telebot from '../../public/captures/telebot.gif'
+import promptlyhub from '../../public/captures/promptlyhub.gif'
 
 export const projects = [
     {
@@ -53,5 +54,13 @@ export const projects = [
       image: `${telebot}`,
       alt: 'ATT-KRTBOT',
       link: 'https://t.me/attkrtbot'
+    },
+    {
+      title: 'PromptlyHub',
+      subtitle: 'Spark Your Imagination with PromptlyHub',
+      description: 'Expand your creative horizons with PromptlyHub, the ultimate AI prompt hub. Discover, create, and share prompts to fuel your imagination and connect with a vibrant community of artists. Unleash your creativity today!',
+      image: `${promptlyhub}`,
+      alt: 'promptlyhub prompt ai chatgpt',
+      link: 'https://promptly-hub.vercel.app/'
     }
   ];
