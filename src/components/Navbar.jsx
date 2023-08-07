@@ -26,7 +26,7 @@ export const Navbar = () => {
           </div>
         </a>
 
-        <a href="http://129.153.100.18:8080/api/public/dl/QpWYf8X4?inline=true" target='_blank' className='font-bold inline-flex hover:text-white xs:text-2xl sm:text-lg ml-6'>
+        <a href="http://129.153.100.18:8080/api/public/dl/kSfS8wQ0?inline=true" target='_blank' className='font-bold inline-flex hover:text-white xs:text-2xl sm:text-lg ml-6'>
           Descargar CV
           <div className='sm:ml-2 hover:text-white xs:text-2xl'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
