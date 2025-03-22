@@ -5,6 +5,9 @@ import socialtreek from '../../public/captures/socialtreek.png'
 import crypto from '../../public/captures/crypto.gif'
 import telebot from '../../public/captures/telebot.gif'
 import promptlyhub from '../../public/captures/promptlyhub.gif'
+import calendario from '../../public/captures/calendario.gif'
+import flixmovie from '../../public/captures/flixmovie.gif'
+import player from '../../public/captures/player.gif'
 
 export const projects = [
     {
@@ -13,7 +16,7 @@ export const projects = [
       description: 'SocialTreek es una Aplicación Web desarrollada con el proposito de que los usuarios que quieran utlizarla puedan compartir de una manera fácil, rápida y sencilla sus redes sociales. El usuario puede añadir sus redes sociales y posteriormente compartir su perfil público para que todos puedan encontrar sus redes sociales en un solo lugar.',
       image: `${socialtreek}`,
       alt: 'SocialTreek, Aplicación Web para ayudar administrar redes sociales.',
-      link: 'https://social-treek.netlify.app'
+      link: 'https://github.com/carloscarrete/tree'
     },
     {
       title: 'Nouty App',
@@ -53,7 +56,7 @@ export const projects = [
       description: 'ATT-KRT es un bot de Telegram que utiliza tecnología de procesamiento de lenguaje natural para generar resúmenes de archivos de audio en español.',
       image: `${telebot}`,
       alt: 'ATT-KRTBOT',
-      link: 'https://t.me/attkrtbot'
+      link: 'https://github.com/carloscarrete/att-krt'
     },
     {
       title: 'PromptlyHub',
@@ -62,5 +65,29 @@ export const projects = [
       image: `${promptlyhub}`,
       alt: 'promptlyhub prompt ai chatgpt',
       link: 'https://promptly-hub.vercel.app/'
+    },
+    {
+      title: 'Calenova',
+      subtitle: 'React Fullstack Developer',
+      description: 'Calenova es una aplicación web personal diseñada para la gestión de calendarios y eventos.',
+      image: `${calendario}`,
+      alt: 'Calenova, aplicación web para la gestión de calendarios y eventos.',
+      link: 'https://calendar-backend-upmt.onrender.com'
+    },
+    {
+      title: 'FlixMovie',
+      subtitle: 'React Native',
+      description: 'FlixMovie es una aplicación móvil de para poder encontrar información sobre películas y series de televisión. Además muestra cuales son las próximas películas y series de televisión que se estrenaránFlixMovies es una aplicación móvil desarrollada con React Native que permite a los usuarios explorar películas populares, buscar películas por título, ver detalles de películas, actores y guardar películas favoritas. La aplicación consume la API de The Movie Database (TMDb) para obtener información sobre películas y actores.',
+      image: `${flixmovie}`,
+      alt: 'FlixMovie, aplicación móvil para encontrar información sobre películas y series de televisión.',
+      link: 'https://github.com/carloscarrete/flixmovies'
+    },
+    {
+      title: 'SP - Melodic',
+      subtitle: 'React Fullstack Developer',
+      description: 'SP Melodic is a modern web application for playing music based on Spotify, developed using React, TypeScript, Vite, TailwindCSS, and Zustand on the frontend, and Node.js, Express, MongoDB/MySQL, and JWT on the backend. The app allows users to authenticate, search for songs, play music, mark songs as favorites, and, if they have admin permissions, manage the song catalog (upload, edit, and delete).',
+      image: `${player}`,
+      alt: 'SP Melodic, aplicación web para reproducir música basada en Spotify.',
+      link: 'https://sp-melodic.netlify.app/'
     }
   ];

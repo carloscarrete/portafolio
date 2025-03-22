@@ -7,7 +7,7 @@ export const About = () => {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hola, soy Carlos Carrete
-                        <br className="hidden lg:inline-block" />Frontend React Developer
+                        <br className="hidden lg:inline-block" /> Frontend React Developer
                     </h1>
                     <p className="mb-8 leading-6">
                         Desarrollador Frontend especializado en React JS. Con experiencia en el desarrollo de Aplicaciones Web utilizando distintas tecnoloǵias. Apasionado por la creación de interfaces de usuario intuitivas y funcionales. Graduado de la Carrera de Ingeniería en Sistemas Computacionales.

@@ -1,10 +1,9 @@
 import React from 'react'
 import { projects } from '../data/projects'
 
-
 export const Projects = () => {
     return (
-        <section  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250" id="projects" className="text-gray-400 bg-gray-900 body-font">
+        <section data-aos="fade-up" data-aos-duration="1000" data-aos-offset="250" id="projects" className="text-gray-400 bg-gray-900 body-font">
             <div className='container px-5 py-5 mx-auto text-center '>
                 <div className="flex flex-col w-full mb-20">
                     <div className='mx-auto mb-14 w-10 inline-block'>
@@ -16,36 +15,40 @@ export const Projects = () => {
                         Proyectos
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    A continuación, comparto una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados si dejas el mouse sobre alguna imagén del proyecto:
+                        A continuación, comparto una selección de los proyectos que he llevado a cabo, utilizando diversas tecnologías y enfoques. Cada proyecto ha sido una oportunidad emocionante para aplicar mis habilidades y conocimientos en el desarrollo de soluciones innovadoras. A continuación, encontrarás descripciones breves de algunos de mis proyectos más destacados si dejas el mouse sobre alguna imagén del proyecto:
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {
-                        projects.map((project) =>
-                        (
-                            <a
-                                href={project.link}
-                                key={project.image}
-                                target='_blank'
-                                className="sm:w-1/2 w-100 p-4">
-                                <div className="flex relative lg:h-[350px]">
-                                    <img
-                                        alt={project.alt}
-                                        className="absolute inset-0 w-full h-full object-cover object-center"
-                                        src={project.image}
-                                    />
-                                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 transform transition duration-500">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-blue-800 font-bold mb-1">
-                                            {project.subtitle}
-                                        </h2>
-                                        <h1 className="title-font text-lg font-medium text-white mb-3">
-                                            {project.title}
-                                        </h1>
-                                        <p className="leading-relaxed">{project.description}</p>
+                        projects.map((project) => {
+                            // Determine if this is the FlixMovie project
+                            const isPortrait = project.title === 'FlixMovie';
+                            
+                            return (
+                                <a
+                                    href={project.link}
+                                    key={project.image}
+                                    target='_blank'
+                                    className={isPortrait ? "sm:w-1/2 w-100 p-4" : "sm:w-1/2 w-100 p-4"}>
+                                    <div className="flex relative lg:h-[350px]">
+                                        <img
+                                            alt={project.alt}
+                                            className={`absolute inset-0 w-full h-full ${isPortrait ? 'object-contain' : 'object-cover'} object-center`}
+                                            src={project.image}
+                                        />
+                                        <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 transform transition duration-500">
+                                            <h2 className="tracking-widest text-sm title-font font-medium text-blue-800 font-bold mb-1">
+                                                {project.subtitle}
+                                            </h2>
+                                            <h1 className="title-font text-lg font-medium text-white mb-3">
+                                                {project.title}
+                                            </h1>
+                                            <p className="leading-relaxed">{project.description}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        ))
+                                </a>
+                            );
+                        })
                     }
                 </div>
             </div>
